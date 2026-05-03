@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     BROADCAST_INTERVAL: int = Field(default=1, env="BROADCAST_INTERVAL")  # seconds
     
     class Config:
-        env_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
+        env_file = os.path.join(os.path.dirname(__file__), ".env")
         case_sensitive = True
 
 @lru_cache()
