@@ -1,0 +1,15 @@
+# Python byte-code / cache
+__pycache__/
+*.pyc
+
+# Virtual‐envs
+.venv/
+
+# IDE / editor settings
+.vscode/
+
+# Environment & secrets
+.env*
+
+# Other files
+Guid_pro
